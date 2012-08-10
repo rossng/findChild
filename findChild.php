@@ -11,6 +11,7 @@
  *
  * OPTIONS
  *
+ * $id - ID of the parent page you want to use. Default: current page
  * $property, $value - Property/value pair to find child page with.
  * $return - Property of child page to return. Can be any resource property or 'url'.
  */
@@ -19,8 +20,8 @@
   $errorUrl = $modx->makeUrl($errorId);
   // Create query
   $c = $modx->newQuery('modResource');  
-  // Get ID of current page
-  $id = $modx->resource->get('id');
+  // Get ID of specified page, or current page by default
+  $id = $modx->getOption('id',$scriptProperties,$modx->resource->get('id'));
   // Find pages with correct property:value and parent
   $c->where(array(  
    'parent' => $id,    
