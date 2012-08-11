@@ -2,7 +2,7 @@
 /**
  * findChild
  *
- * Find a child of the any page with a particular property/value pair
+ * Find a child of any page with a particular property/value pair
  * and return one of its other properties.
  *
  * @author Ross Gardiner
