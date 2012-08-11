@@ -7,7 +7,7 @@
  *
  * @author Ross Gardiner
  * @copyright MIT License Ross Gardiner 2010
- * @version 1.0 - August 11, 2012
+ * @version 1.0-pl - August 11, 2012
  *
  * OPTIONS
  *
