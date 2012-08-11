@@ -2,12 +2,12 @@
 /**
  * findChild
  *
- * Find a child of the current page with a particular property/value pair
+ * Find a child of the any page with a particular property/value pair
  * and return one of its other properties.
  *
  * @author Ross Gardiner
  * @copyright MIT License Ross Gardiner 2010
- * @version 1.0-beta - January 15, 2011
+ * @version 1.0 - August 11, 2012
  *
  * OPTIONS
  *
